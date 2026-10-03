@@ -1,4 +1,4 @@
-files := VMIntrospection.oz ThreadIntrospection.oz NodeIntrospection.oz
+files := VMIntrospection.oz ThreadIntrospection.oz NodeIntrospection.oz VariableIntrospection.oz
 objects := $(files:.oz=.ozf)
 
 build: $(objects)
